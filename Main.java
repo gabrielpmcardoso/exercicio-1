@@ -240,7 +240,7 @@ public class Main {
                     } else if (tipo.equalsIgnoreCase("PJ")) {
                         banco.cadastrarCliente(new PessoaJuridica(nome));
                     } else {
-                        System.out.println("tipo invalido.");
+                        System.out.println("tipo invalido");
                     }
                     break;
                 }
@@ -267,7 +267,7 @@ public class Main {
                                 cliente.adicionarConta(new ContaRendimento(valor));
                                 break;
                             default:
-                                System.out.println("tipo de conta invalido.");
+                                System.out.println("tipo de conta invalido");
                         }
                     }
                     break;
